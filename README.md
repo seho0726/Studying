@@ -1,2 +1,112 @@
-# StackStudy
-This is an auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
+# 🧠 Algorithm Study
+
+> 백준(BOJ) & 프로그래머스를 통한 알고리즘 문제풀이 저장소  
+> Python · C++ | 2024 ~
+
+<br>
+
+## 📌 목표
+
+- 핵심 자료구조와 알고리즘을 **언어 2개(Python / C++)** 로 깊이 있게 익히기
+- 단순 정답 제출을 넘어, **시간·공간 복잡도를 고려한 최적 풀이** 탐구
+- 매일 꾸준히 기록하며 **사고력과 코드 품질** 동시에 성장
+
+<br>
+
+## 🗂️ 디렉터리 구조
+
+```
+📦 algorithm-study
+├── 📁 BOJ/                     # 백준 온라인 저지
+│   ├── 📁 data-structure/      # 자료구조
+│   ├── 📁 graph/               # 그래프 / BFS / DFS
+│   ├── 📁 dp/                  # 동적 프로그래밍
+│   ├── 📁 sorting/             # 정렬 / 이분탐색
+│   ├── 📁 greedy/              # 그리디
+│   └── 📁 math/                # 수학 / 구현
+│
+├── 📁 Programmers/             # 프로그래머스
+│   ├── 📁 lv1/
+│   ├── 📁 lv2/
+│   └── 📁 lv3/
+│
+└── 📁 Notes/                   # 개념 정리 노트
+```
+
+<br>
+
+## 📚 분야별 학습 현황
+
+| 분야 | 주요 개념 | 플랫폼 | 언어 |
+|------|-----------|--------|------|
+| **자료구조** | 스택, 큐, 힙, 트리, 해시맵, 세그먼트 트리 | BOJ, 프로그래머스 | Python, C++ |
+| **그래프 / 탐색** | BFS, DFS, 다익스트라, 벨만-포드, 위상정렬, 유니온-파인드 | BOJ, 프로그래머스 | Python, C++ |
+| **DP** | 1·2D DP, LCS, LIS, 배낭 문제, 비트마스크 DP | BOJ, 프로그래머스 | Python, C++ |
+| **정렬 / 이분탐색** | 병합정렬, 퀵정렬, 이진탐색, Parametric Search | BOJ | Python, C++ |
+| **그리디** | 활동 선택, 허프만, 최적 부분 구조 | BOJ, 프로그래머스 | Python, C++ |
+| **수학 / 구현** | 소수판별(에라토스테네스), GCD/LCM, 조합론, 시뮬레이션 | BOJ | Python, C++ |
+
+<br>
+
+## 🧩 풀이 예시
+
+각 파일은 아래 형식으로 작성됩니다.
+
+```python
+# Problem  : [BOJ 1234] 문제 이름
+# Link     : https://www.acmicpc.net/problem/1234
+# Category : 그래프 / BFS
+# Time     : O(V + E)
+# Space    : O(V)
+
+from collections import deque
+
+def solve():
+    ...
+```
+
+<br>
+
+## 🛠️ 개발 환경
+
+| 항목 | 내용 |
+|------|------|
+| 언어 | Python 3.11 · C++17 |
+| 에디터 | VS Code |
+| 플랫폼 | [백준](https://www.acmicpc.net/) · [프로그래머스](https://programmers.co.kr/) |
+| 확장 | BOJ Helper (크롬 익스텐션) |
+
+<br>
+
+## 📈 학습 방식
+
+1. **개념 학습** — 알고리즘 이론 정리 (`Notes/` 폴더)
+2. **유형 파악** — 문제 유형·태그 확인 후 접근 전략 수립
+3. **직접 풀이** — 힌트 없이 시간 제한 두고 풀기
+4. **복기 & 최적화** — 풀이 후 다른 접근법·시간복잡도 비교
+5. **언어 교차 구현** — Python으로 먼저 풀고, C++로 재구현해 속도 비교
+
+<br>
+
+## 🔖 커밋 컨벤션
+
+```
+[플랫폼/분류] 문제번호 - 문제이름 (언어)
+
+예시:
+[BOJ/DP] 12865 - 평범한 배낭 (Python)
+[PRG/Graph] Lv3 - 가장 먼 노드 (C++)
+```
+
+<br>
+
+## 🔗 관련 링크
+
+- [백준 프로필](https://www.acmicpc.net/)
+- [프로그래머스 프로필](https://programmers.co.kr/)
+
+<br>
+
+---
+
+> "문제를 푸는 것보다 **왜 이 방법인지** 설명할 수 있는 것이 진짜 실력이다."
